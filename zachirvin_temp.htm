@@ -1,0 +1,104 @@
+
+    <html>
+      <head>
+        <meta charset="UTF-8">
+        
+      </head>
+      <body> <head><script src="https://kit.fontawesome.com/7fe8297e16.js" crossorigin="anonymous"></script></head><div class="header"><h1 class="name">Zachery Irvin</h1><h2 class="title">Full Stack Developer</h2><div class="contact"><div class="imgCont"><i class="fab fa-github square"></i><div class="contactInfo">zacheryirvin</div></div><div class="imgCont"><i class="fas fa-desktop"></i><div class="contactInfo">https://zacheryirvin.com/</div></div></div><div class="contact"><div class="imgCont"><i class="fab fa-linkedin"></i><div class="contactInfo">https://www.linkedin.com/in/zach-irvin/</div></div><div class="imgCont"><i class="fas fa-envelope-square"></i><div class="contactInfo">zachirvin45@gmail.com</div></div><div class="imgCont"><i class="fas fa-phone"></i><div class="contactInfo">(806) 881-5271</div></div></div></div><div class="skills"><h3 class="skillsHead">Skills</h3><ul class="listOne"><li class="list">|  Javascript  | </li><li class="list">|  React       | </li><li class="list">|  Redux       | </li><li class="list">|  Nodejs      | </li><li class="list">|  Express     | </li><li class="list">|  Python      | </li><li class="list">|  SQL         | </li><li class="list">|  SASS/LESS   | </li></ul></div><div class="skills"><h3 class="skillsHead">Projects</h3><div class="projCont"><h4 class="projTitle">Inquiry</h4><div class="link">https://affectionate-almeida-c22cb1.netlify.com/</div><div class="projDesc">An app designed to facilitate the scheuling, interaction, and payment between contractors and customers.</div><ul class="listTwo"><li class="list">| HTML |</li><li class="list">| React |</li><li class="list">| Nodejs |</li><li class="list">| Postgres |</li><li class="list">| OAuth |</li><li class="list">| GSAP |</li></ul><ul class="featureList"> <li>Utilized OAuth and passport.js for signup and login ability as default.</li><li>Implemeted standard signup and login via username and password through bcrypt and jwt tokens as secondary.</li><li>Created scheduling between contractors  and customers with data persistence through Postgres database.</li><li>Payments and processing conducted through the stripe api.</li></ul></div><div class="projCont"><h4 class="projTitle">Sleep Tracker</h4><div class="link">https://github.com/sleep-tracker-pt</div><div class="projDesc">An app for tracking sleep patterns and providing useful insights into how to achieve the best sleep per individual based on user input.</div><ul class="listTwo"><li class="list">| HTML |</li><li class="list">| React |</li><li class="list">| Nodejs |</li><li class="list">| Postgres |</li></ul><ul class="featureList"><li>Implemeted Signup, login, and authentication via JWT tokens, and Postgres.</li><li>Achieved data persistence through Postgres connected to the backend with Knex.js.</li><li>Backend built in Nodejs and Express.</li></ul></div><div class="divider"> </div></div><div class="skills"><h3 class="skillsHead">Experience</h3><div class="projCont"><h4 class="projTitle">Self Employed | Amarillo, Tx </h4><div class="link">Jun 2016 - present</div><h4 class="position">Sub-Contractor</h4><ul class="featureList"><li>Created building floor layout, design, and optimizaiton.</li><li>Fabricated and Constructed building structure according to blueprints and building code requirments.</li><li>Managed sub-contactors for completion of project on time.</li></ul></div><div class="projCont"><h4 class="projTitle">United Parcel Service, UPS | Amarillo, Tx</h4><div class="link">Oct 2013 - Mar 2016</div><h4 class="position">Center Supervisor</h4><ul class="featureList"><li>Directed and Coordinated operation, management, and supportive services of two UPS facilities.</li><li>Created and Implemented operational plans that correted flaws in current procedures, increasing productivity and operational bottom line while decreaseing workplace hazards.</li></ul></div></div><div class="skills"><h3 class="skillsHead">Education</h3><div class="projCont"><h4 class="projTitle">Lambda School | Silicon Valley, CA</h4><div class="link">Sep 2018 - Jan 2020</div><h4 class="position">Full Stack Web Development & Computer Science</h4><ul class="featureList"><li>Lambda School is a Computer Science and Software Engineering Academy that provides an immersive, hands on curriculum with a focus on computer science, software engineering, and web development</li></ul></div><style>@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Roboto&display=swap");
+.divider {
+  border-bottom: 1px solid black; }
+
+.header {
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+  background: linear-gradient(45deg, rgba(41, 110, 133, 0.5), white 70%);
+  border-radius: 5px; }
+  .header .name {
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
+  .header .title {
+    margin-top: 0px;
+    padding-top: 0px; }
+  .header .contact {
+    display: flex; }
+    .header .contact .imgCont {
+      font-size: 1.5rem;
+      padding-bottom: 10px;
+      display: flex;
+      flex-wrap: wrap; }
+      .header .contact .imgCont .contactInfo {
+        font-size: 1rem;
+        margin-left: 15px;
+        margin-right: 15px; }
+
+.skills {
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+  margin: 0 auto; }
+  .skills .skillsHead {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 5px; }
+  .skills .listOne {
+    display: flex;
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 0px;
+    margin: 0px; }
+    .skills .listOne .list {
+      padding-bottom: 10px; }
+
+.projCont {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px; }
+  .projCont .projTitle {
+    color: #296e78;
+    width: 39%;
+    font-size: .9rem;
+    text-decoration: underline;
+    margin: 2px;
+    padding-bottom: 5px;
+    text-align: left; }
+  .projCont .link {
+    display: flex;
+    align-items: flex-end;
+    font-size: .9rem;
+    justify-content: flex-end;
+    color: #296e78;
+    width: 59%;
+    text-decoration: underline;
+    padding-bottom: 5px;
+    margin: 2px; }
+  .projCont .projDesc {
+    font-size: .8rem; }
+  .projCont .listTwo {
+    display: flex;
+    font-weight: bold;
+    font-size: .8rem;
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px; }
+    .projCont .listTwo .list {
+      padding-bottom: 10px; }
+  .projCont .featureList {
+    margin-top: 0px;
+    font-size: .8rem; }
+  .projCont .position {
+    color: #296e78;
+    width: 100%;
+    font-size: .9rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 2px;
+    padding-bottom: 5px;
+    text-align: left; }
+</style></div> </body>
+    </html>

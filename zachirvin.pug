@@ -1,0 +1,105 @@
+head
+    script(src="https://kit.fontawesome.com/7fe8297e16.js" crossorigin="anonymous")
+
+div.header
+  h1.name Zachery Irvin
+  h2.title Full Stack Developer
+  div.contact
+    div.imgCont
+      i.fab.fa-github.square
+      div.contactInfo zacheryirvin
+    div.imgCont
+      i.fas.fa-desktop
+      div.contactInfo https://zacheryirvin.com/
+  div.contact
+    div.imgCont
+      i.fab.fa-linkedin
+      div.contactInfo https://www.linkedin.com/in/zach-irvin/
+    div.imgCont
+      i.fas.fa-envelope-square
+      div.contactInfo zachirvin45@gmail.com
+    div.imgCont
+      i.fas.fa-phone
+      div.contactInfo (806) 881-5271
+
+div.skills
+  h3.skillsHead Skills
+  ul.listOne
+    li.list |  Javascript  | 
+    li.list |  React       | 
+    li.list |  Redux       | 
+    li.list |  Nodejs      | 
+    li.list |  Express     | 
+    li.list |  Python      | 
+    li.list |  SQL         | 
+    li.list |  SASS/LESS   | 
+
+div.skills
+  h3.skillsHead Projects
+  div.projCont
+    h4.projTitle Inquiry
+    div.link https://affectionate-almeida-c22cb1.netlify.com/
+    div.projDesc An app designed to facilitate the scheuling, interaction, and payment between contractors and customers.
+    ul.listTwo
+      li.list | HTML |
+      li.list | React |
+      li.list | Nodejs |
+      li.list | Postgres |
+      li.list | OAuth |
+      li.list | GSAP |
+    ul.featureList 
+      li Utilized OAuth and passport.js for signup and login ability as default.
+      li Implemeted standard signup and login via username and password through bcrypt and jwt tokens as secondary.
+      li Created scheduling between contractors  and customers with data persistence through Postgres database.
+      li Payments and processing conducted through the stripe api.
+
+  div.projCont
+    h4.projTitle Sleep Tracker
+    div.link https://github.com/sleep-tracker-pt
+    div.projDesc An app for tracking sleep patterns and providing useful insights into how to achieve the best sleep per individual based on user input.
+    ul.listTwo
+      li.list | HTML |
+      li.list | React |
+      li.list | Nodejs |
+      li.list | Postgres |
+    ul.featureList
+      li Implemeted Signup, login, and authentication via JWT tokens, and Postgres.
+      li Achieved data persistence through Postgres connected to the backend with Knex.js.
+      li Backend built in Nodejs and Express.
+  div.divider  
+div.skills
+  h3.skillsHead Experience
+  div.projCont
+    h4.projTitle Self Employed | Amarillo, Tx 
+    div.link Jun 2016 - present
+    h4.position Sub-Contractor
+    ul.featureList
+      li Created building floor layout, design, and optimizaiton.
+      li Fabricated and Constructed building structure according to blueprints and building code requirments.
+      li Managed sub-contactors for completion of project on time.
+
+  div.projCont
+    h4.projTitle United Parcel Service, UPS | Amarillo, Tx
+    div.link Oct 2013 - Mar 2016
+    h4.position Center Supervisor
+    ul.featureList
+      li Directed and Coordinated operation, management, and supportive services of two UPS facilities.
+      li Created and Implemented operational plans that correted flaws in current procedures, increasing productivity and operational bottom line while decreaseing workplace hazards.
+
+div.skills
+  h3.skillsHead Education
+  div.projCont
+    h4.projTitle Lambda School | Silicon Valley, CA
+    div.link Sep 2018 - Jan 2020
+    h4.position Full Stack Web Development & Computer Science
+    ul.featureList
+      li Lambda School is a Computer Science and Software Engineering Academy that provides an immersive, hands on curriculum with a focus on computer science, software engineering, and web development
+
+
+
+
+
+
+
+  style
+    include:scss styles.scss
